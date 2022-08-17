@@ -1,0 +1,57 @@
+// Scss Document
+//Variables
+$primaryfonts:'Helvetice', Sans-serif;
+$secondaryfonts:'Playfair Display', serif;
+
+//Colors
+$gray:#55595c;
+
+//Global styles
+.container{
+	.header{
+		.top_header>a, .top_header-right button{
+			font-family: $primaryfonts;
+            
+		}
+		.top_header{
+			h1{
+				font-family: $secondaryfonts;
+                font-weight: 900;
+                font-size: 2.3rem;
+			}
+			a.topheader_h1{
+				color: black;
+				&:hover{
+					text-decoration: none;
+				}
+			}
+            a.souscribe{
+                font-size: 15px;
+            }
+		}
+		
+	}
+	.document_title{
+		h1{
+			font-family: "playfair-display",$secondaryfonts;
+            font-weight: 700;
+		}
+	}
+	.post{
+		h2{
+			font-family: $secondaryfonts;
+		}
+		.right_content{
+			background-color: $gray;
+		}
+	}
+	.description{
+		.fixed-contents{
+			max-height: 700px;
+		}
+		h1,h2,h3,h4{
+			font-family: $secondaryfonts;
+		}
+	}
+}
+	
